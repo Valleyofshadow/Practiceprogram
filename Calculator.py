@@ -20,10 +20,10 @@ def solve(n1, s, n2):
 
 x = 0
 
+n1 = float(input("What's the first number?: "))
 while x != 1:
-    n1 = float(input("What's the first number?: "))
     s = str(input("+\n-\n*\n/\nPick an operation: "))
-    n2 = float(input("What's the next number?: "))
+    n2 = float(input("What's the second number?: "))
     solution = solve(n1, s, n2)
     print (n1,s, n2, "=", solution)
     print (" Type 'y' to continue calculating with", solution, "or type 'n' to start a new calculation: ")
