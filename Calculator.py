@@ -26,7 +26,7 @@ while x != 1:
     n2 = float(input("What's the next number?: "))
     solution = solve(n1, s, n2)
     print (n1,s, n2, "=", solution)
-    print (" Type 'y' to continue calculating with", n1, "or type 'n' to start a new calculation: ")
+    print (" Type 'y' to continue calculating with", solution, "or type 'n' to start a new calculation: ")
     t = input()
     if t == 'n':
         clear()
